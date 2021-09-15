@@ -75,6 +75,53 @@ hr{
     float: right;
     /* margin-left: 2rem; */
 }
+
+.btn  {
+    display: block;
+    width: 5%;
+    background-color: #199319;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4%;
+    margin-top: 10px;
+    margin-left: 32cm;
+    margin-bottom: 1cm;
+}
+
+.btn:hover{
+    background-color: #182628;
+}
+
+/* .copyright{
+    margin: 5rem;
+} */
+
+.bottom-link{
+    display: inline-block;
+    margin: 1rem;
+}
+
+/* .bottom-link a {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+.li-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-wrapper a {
+    text-decoration: none;
+    color: var(--text);
+}
+
 /*h1{
     font-family: var(--headings-font-family);
 }*/
