@@ -21,6 +21,70 @@ body{
     color: var(--text);
 }
 
+.animation-container{
+    border: 0 solid white;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cloud1{
+    left: 8px;
+    top: 30px;
+    display: inline-block;
+    margin-top: 110px;
+    position: absolute;
+    animation-name: cloudAni;
+    animation-duration: 55s;
+    animation-iteration-count: infinite;
+}
+
+.cloud1 img{
+    height: 56%;
+    width: 55%;
+}
+
+.cloud2{
+    left: 18px;
+    top: 30px;
+    margin-left: 220px;
+    margin-top: 110px;
+    display: inline-block;
+    position: relative;
+    animation-name: cloudAni;
+    animation-duration: 55s;
+    animation-iteration-count: infinite;
+}
+
+.cloud2 img{
+    height: 98%;
+    width: 98%;
+}
+
+.mountain{
+    display: inline-block;
+    position: relative;
+    bottom: 188px;
+}
+.mountain img{
+    width: 100%;
+}
+
+@keyframes cloudAni{
+    0%{left: 18px; top: 30px;}
+    10%{left: 20px; top: 33px;}
+    25%{left: 35px; top: 50px;}
+    35%{left: 25px; top: 35px;}
+    45%{left: 15px; top: 35px;}
+    55%{left: 10px; top: 29px;}
+    65%{left: 8px; top: 25px;}
+    75%{left: 10px; top: 21px;}
+    85%{left: 14px; top: 23px;}
+    95%{left: 17px; top: 28px;}
+    100%{left: 20px; top: 33px;}
+}
+
 h2{
     color:var(--headings);
     font-family: var(--headings-font-family);
@@ -121,6 +185,8 @@ hr{
     text-decoration: none;
     color: var(--text);
 }
+
+
 
 /*h1{
     font-family: var(--headings-font-family);
