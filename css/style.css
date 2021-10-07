@@ -139,19 +139,26 @@ hr{
     float: right;
     /* margin-left: 2rem; */
 }
+.contact-me{
+    align-items: center;
+}
 
 .btn  {
-    display: block;
-    width: 5%;
+    display: inline-block;
+    /* width: 5%; */
     background-color: #199319;
+    text-decoration: none;
     color: white;
-    padding: 10px 25px;
+    padding: 1rem;
     cursor: pointer;
     border: none;
+    text-align: center;
     border-radius: 4%;
-    margin-top: 10px;
-    margin-left: 32cm;
-    margin-bottom: 1cm;
+    /* margin-left: 43rem; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 1cm; */
+    margin: 0 auto;
+    transition: all 0.4s;
 }
 
 .btn:hover{
